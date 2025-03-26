@@ -1,0 +1,40 @@
+$pixel-size:10%;
+
+.grid {
+  display: flex;
+  flex-direction: column;
+
+  .row {
+    display: flex;
+
+    .pixel {
+      width: 1rem;
+      height: 1rem;
+      border: 1px solid #0003;
+    }
+  }
+}
+
+#amongus {
+  .col-1 {
+    background-color: #000;
+  }
+  .col-2 {
+background-color: #fff;
+  }
+  
+.col-3 {
+  background-color:#ffeb3b;
+}
+.col-4 {
+  background-color:#c62828;}
+
+.col-5 {
+  background-color:#03a9f4;}
+
+.col-6 {
+  background-color:#2196f3;}
+
+.col-7 {
+  background-color:#b71c1c;}
+}

@@ -1,0 +1,50 @@
+.text-primary {
+  color: #F21616;
+}
+
+.bg-primary {
+  background-color: #F21616;
+}
+
+.text-Secondy {
+  color: #4CA633;
+}
+
+.bg-Secondy {
+  background-color: #4CA633;
+}
+
+.text-blue {
+  color: #04B2D9;
+}
+
+.bg-blue {
+  background-color: #04B2D9;
+}
+
+header nav {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+header nav ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+header nav ul li {
+  position: relative;
+}
+header nav ul li:hover a {
+  color: #F21616;
+}
+header nav ul li:hover ul {
+  display: flex;
+}
+header nav ul li a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+/*# sourceMappingURL=style.css.map */

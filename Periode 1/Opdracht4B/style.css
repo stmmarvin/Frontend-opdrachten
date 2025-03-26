@@ -1,0 +1,78 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+ol {
+    margin: 1rem;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    padding: 0.5rem 1rem;
+}
+
+ol > li {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+ul > li {
+    font-weight:normal;
+    font-size: 1rem;
+    padding: 0.5rem;
+}
+
+ul > li:first-of-type {
+    margin-top: 0.5rem;
+    background-color: #0008;
+}
+
+
+ul > li:last-of-type {
+    font-style: italic;
+    font-size: 0.8rem;
+}
+
+ul > li::before {
+    display: inline-block;
+    width: 100%;
+    color: #0008;
+    font-size: 0.8rem;
+    margin-bottom: 0.5rem;
+}
+
+ul > li:first-of-type::before {
+    content: "Explanation: ";
+}
+
+ul > li:last-of-type::before {
+    content: "Release date: ";
+}
+
+
+
+ol > li:nth-of-type(odd) > ul > li:first-of-type {
+    background: #f008;
+}
+
+ol > li:nth-of-type(even)> ul > li:first-of-type {
+    background: #00f8; 
+  }
+
+
+
+
+

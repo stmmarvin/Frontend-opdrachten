@@ -1,0 +1,21 @@
+ p {
+
+margin: auto;
+ }
+ blockquote {
+display: block;
+margin-top: 1em;
+margin-bottom: 1em;
+margin-left: 40px;
+margin-right: 40px;
+ }
+
+ img {
+width: 400px;
+height: auto;
+position: relative;
+top: 20px;
+left: 30px;
+ }
+
+ 

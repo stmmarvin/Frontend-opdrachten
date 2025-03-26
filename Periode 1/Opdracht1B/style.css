@@ -1,0 +1,89 @@
+body {
+font-size: large 18px;
+width: 100%;
+size: 100%;
+padding: 0;
+margin: 0;
+}
+
+h1 {
+    font-family: cursive;
+    color: #FF0000;/* dit is rood */
+    font-size: 40px;
+    padding: 10px;
+    background-color: darkgray;
+}
+
+p {
+font-family: monospace;
+color:#472811;/* dit is bruin*/
+margin: 0.5rem 0;
+float: left;
+}
+
+img {
+    float: right;
+    max-width: 50%;
+}
+
+a {
+font: medium;
+font-weight: 500;
+color: aquamarine;
+}
+
+ul {
+   font-family: 'Times New Roman';
+   color: rgba(10, 34, 247, 0.467);/* dit is donkerblauw */
+
+}
+
+li {
+    color: #cc4b0fbc;
+    font-family: Verdana;
+}
+
+strong{
+font-size: medium;
+color: 255, 255, 000;
+}
+
+.text-container {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.centered-figure {
+margin: 0 auto; /* figuur wordt in het midden van container geplaatst*/
+
+}
+
+a:hover{
+background-color: black;
+
+}
+figure {
+float: right;
+max-width: 50%;
+text-align: center;
+
+}
+
+dialog {
+justify-content: center;
+top: 50v;
+
+}
+
+p {
+color: rgb(101, 64, 224);
+font-family: Arial;
+
+}
+strong {
+font-family: verdana;
+color: #FF0000;
+
+}

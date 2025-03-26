@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>weather</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.min.css">
+</head>
+
+<body>
+    <header>
+        <section class="weather">
+            <div class="container">
+                <img src="img/weather.svg" alt="weather">
+                <span>Bewolkt en lichte regen</span>
+                <span>16 &deg;<sup>c</sup></span>
+            </div>
+        </section>
+        <nav class="center">
+            <div class="container">
+                <div class="menu">
+                    <div id="logo">AD</div>
+                    <ul>
+                        <li class="active"><a href="#">Nieuws</a>
+                        
+                            <ul>
+                                <li><a href="#">Binnenland</a></li>
+                                <li><a href="#">Buitenland</a></li>
+                                <li><a href="#">Politek</a></li>
+                                <li><a href="#">Economie</a></li>
+                              
+                            </ul>
+                        </li>
+                        <li><a href="#">Regio</a>
+                            <ul>
+                                <li><a href="#">Amsterdam</a></li>
+                                <li><a href="#">Den Haag</a></li>
+                                <li><a href="#">Rotterdam</a></li>
+                                <li><a href="#">Utrecht</a></li>
+                                <li><a href="#">Apeldoorn</a></li>
+                                <li><a href="#">Breda</a></li>
+                                <li><a href="#">Delft</a></li>
+                                <li><a href="">Amersfoort</a></li> 
+                            </ul>
+                        </li>
+                        <li><a href="#">Sport</a>
+                            <ul>
+                                <li><a href="#">Voetbal</a></li>
+                                <li><a href="#">Formule 1</a></li>
+                                <li><a href="#">Wielrennen</a></li>
+                                <li><a href="#">Vechtsport</a></li>
+                                <li><a href="#">Tennis</a></li>
+                                <li><a href="#">Andere</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">media</a>
+                            <ul>
+                                <li><a href="#">Series</a></li>
+                                <li><a href="#">Film</a></li>
+                                <li><a href="#">Muziek</a></li>
+                                <li><a href="#">Cultuur</a></li>
+                                <li><a href="#">Radio</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <script>
+    document.querySelectorAll('nav div.menu > ul > li').forEach((el) => {
+         el.addEventListener('click', () => {
+            document.querySelector('li.active').classList.remove('active');
+            el.classList.toggle('active');
+        })
+      });
+    </script>
+</body>
+
+</html>
